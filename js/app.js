@@ -1,5 +1,11 @@
 
-function validation(){
+function change_page()
+{
+  window.location.href = "index2.html";
+} 
+
+function validation()
+{
 
    var email='me@mailinator.com';
    var password='test-P1assword';
@@ -20,9 +26,6 @@ function validation(){
        return false;
    }
 }
-function change_page(){
-  window.location.href = "index2.html";
-} 
 
 function processform()
 {
